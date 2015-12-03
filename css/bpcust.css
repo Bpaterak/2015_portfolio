@@ -1,0 +1,134 @@
+body {
+-webkit-user-select: none; /* Chrome/Safari */        
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* IE10+ */
+
+/* Rules below not implemented in browsers yet */
+-o-user-select: none;
+user-select: none;
+}
+/* works fix */
+
+#works {
+    max-width: 1600px;
+    margin: 0px auto;
+}
+
+.contact {
+	background-color: #f4f7f9;
+}
+
+/* icon stack */
+.service-icon {
+	float:none;
+	padding:10px 0;
+}
+
+.service-desc {
+	margin-left:0px;
+}
+
+/* bio */
+#team .devider {
+	margin-bottom: 30px;
+
+}
+.team-member:hover h4 {
+  color: #00B0ff;
+}
+
+.biopd {
+	font-size: 14px;
+	font-weight: 400;
+	font-size: 1.2em;
+}
+/* social buttons */
+
+.devider i{
+  color: #00B0ff;
+}
+
+#slider .fa-lg {
+	font-size: 2.333333em;
+}
+
+.service-item .fa-lg {
+	font-size: 2.333333em;	
+}
+#slider .pd {
+	opacity: 0.7;
+	color: #fff;
+}
+
+#slider .pd:hover {
+	opacity:1;
+}
+
+.medpd {
+	font-weight: 700;
+}
+.thinpd {
+	font-weight: 400;
+}
+
+#team a {
+	color:#00B0ff;
+}
+
+#contact a {
+	color:#00B0ff;
+}
+
+.footer {
+	background-color: #4C4C4C;
+}
+
+body > section, .footer {
+	padding:50px 0;
+}
+
+.copyright {
+	margin-top:0;
+}
+
+.sec-title h2 {
+	color:#696969;
+	font-weight: 500;
+}
+
+.service-desc h3 {
+	color:#686868;
+	font-weight: 400;
+}
+
+.contact-form h3 {
+	color:#686868;
+	font-weight: 500;
+}
+
+.sec-sub-title p {
+	color:#686868;
+	font-weight: 500;
+	}
+
+
+.work-filter ul li a {
+	color:#686868;
+	font-weight: 600;
+}
+
+span.color {
+	color:#00B0ff;
+}
+
+.carousel-caption p:before, .carousel-caption p:after {
+	color:#00B0ff;
+	}
+.service-icon {
+	border-color:#00B0ff;
+	color:#00B0ff;
+}
+
+.carousel-caption {
+  top: 40%;
+}
